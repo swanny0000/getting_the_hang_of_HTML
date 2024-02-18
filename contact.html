@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Get in Touch</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="index.html">Back to index</a>
+  <div>
+    <h4>Fill out the following information:</h4>
+    <form action="">
+      <label for="name">Enter your name:</label><input type="text" id="name" name="name" placeholder="John Smith" required>
+      <br><br>
+      <label for="phone">Enter a good callback number:</label><input type="tel" id="phone" name="phone" required>
+      <br><br>
+      <label for="contactDate">When do you want to chat?</label><input type="date" id="contactDate" name="contactDate" required>
+      <br><br>
+      <span>How old are you?</span>
+      <input type="radio" name="age" value="0-18" id="young"><label for="young">0-18</label>
+      <input type="radio" name="age" value="19-35" id="middle"><label for="middle">19-35</label>
+      <input type="radio" name="age" value="36-55" id="old"><label for="old">36-55</label>
+      <input type="radio" name="age" value="56+" id="oldplus"><label for="oldplus">56+</label>
+      <br><br>
+      <label for="contactTimes">When would you like to be contacted?</label>
+      <select name="contactTimes" id="contactTimes">
+        <option value="beforeTen">Before 10am</option>
+        <option value="midday">Between 10am and 1pm</option>
+        <option value="afternoon">Between 1pm and 5pm</option>
+        <option value="evening">After 5 pm</option>
+      </select>
+      <br><br>
+      <label for="bio">Tell us about yourself:</label><br>
+      <textarea name="bio" id="bio" cols="50" rows="10" placeholder="Enter text here"></textarea>
+      <br><br>
+      <input type="submit" value="Send Contact Info">
+    </form>
+  </div>
+</body>
+</html>

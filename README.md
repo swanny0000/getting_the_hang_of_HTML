@@ -1,0 +1,2 @@
+# How to use this set of files
+Currently, this is focused on learning CSS and HTML, not learning how to run my own server to access HTML files that I've written. This means that, to see these files, we need to open these .html files in a browser (just open them from Finder, Chrome should automatically open them).
